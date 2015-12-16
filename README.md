@@ -6,4 +6,4 @@ Problems that, for majority of cases, come from my friend and colleague Emmanuel
 
 ## Splitter Regex ##
 A exercise/challenge to build a (monstrous) regex to split a string, in all possible cases.
-[Explanation](splitterRegex.txt) and [Python code.](splitterRegex.py)
+[Explanation](splitterRegex.md) and [Python code.](splitterRegex.py)
