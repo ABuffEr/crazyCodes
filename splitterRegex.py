@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # A Python proof of concepts about splitting with a regex.
-# See splitterRegex.txt for more info.
+# See splitterRegex.md for more info.
 import re
 
 def splitterRegex(input, subExp):
