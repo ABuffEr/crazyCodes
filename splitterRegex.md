@@ -12,13 +12,16 @@ Voilà...
 
 Calling "regex" above as "subregex" (for explanation  purpose), the core of our solution is the following combination of three regex (Did I already say regex? Yeah, I love regex! XD):
 
-(?:subregex)|(.*?)(?=subregex)|(.+)(?!subregex)
+`(?:subregex)|(.*?)(?=subregex)|(.+)(?!subregex)`
 
-As explained (for example) in Python documentation for re module, the meaning of three disjunctions is:
+As explained (for example) in [Python documentation for re module][1], the meaning of three disjunctions is:
 
-* for (?:subregex): a non-capturing regex; there is a match of subregex, but the result will not be retrieved (substantially, it's useful to consume inputString of a subregex segment);
-* for (.*?)(?=subregex): a match of all text followed by subregex; the non-greedy expression (.*?) allows us to match some text correctly even if the text is followed by two occurrences of subregex;
-* for (.+)(?!subregex): a match of all text NOT followed by subregex.
+* for `(?:subregex)`: a non-capturing regex; there is a match of subregex, but the result will not be retrieved (substantially, it's useful to consume inputString of a subregex segment);
+* for `(.*?)(?=subregex)`: a match of all text followed by subregex; the non-greedy expression `(.*?)` allows us to match some text correctly even if the text is followed by two occurrences of subregex;
+* for `(.+)(?!subregex)`: a match of all text NOT followed by subregex.
 
 NOTE: the disjunctions order is important! Specifically, the first expression, in its position, guarantees that no substring of subregex will be matched by the other regex disjunctions (test them separately to see for yourself).
+
 Finally, subregex can be anything, a character, a word, a regex. And yes, it magically works. :D
+
+[1]: https://docs.python.org/2/library/re.html
