@@ -21,7 +21,7 @@ if __name__ == "__main__":
 	res = functionChooserMain(l, d, df)
 	print "Main implementation:\nInput: %s\nOutput: %s"%(l,res)
 	ordD = OrderedDict()
-	ordD.update(d) # Note: this operation not order sensitive!
+	ordD.update(d) # Note: this operation is not order sensitive!
 	ordD[(lambda c: True)] = df
 	res = functionChooserAlternative(l, ordD)
 	print "Alternative implementation:\nInput: %s\nOutput: %s"%(l,res)
