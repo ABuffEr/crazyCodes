@@ -15,3 +15,10 @@ A exercise/challenge to build a (monstrous) regex to split a string, in all poss
 A code density exercise, to apply different functions on list items according to satisfied predicates.
 
 [Explanation](functionChooser.md) and [Python code.](functionChooser.py)
+
+## Padding Regex ##
+
+An attempt to use regex for padding; in practice, a replacing example using a function rather than a pre-determined string.
+
+[Explanation](paddingRegex.md) and [Python code.](paddingRegex.py)
+
