@@ -12,7 +12,7 @@ It seems that a way using a single pattern and a standard replacing operation do
 
 In our example, we use:
 
-* an [input file](cap.csv) containing various, non-fixed-length Italian mail postcode, usually of 5 digits, but reported here also with 2, 3 or 4 digits (that is, without leading zeros);
+* an input file containing various, non-fixed-length Italian mail postcode, usually of 5 digits, but reported here also with 2, 3 or 4 digits (that is, without leading zeros);
 * an output file, identical to the input file, but with fixed-length postcodes;
 * a pattern to totally match (with "^...$") string containing from 2 to 4 digits;
 * a function replacing passed string with a number of zeros according to string length, plus the same string.
