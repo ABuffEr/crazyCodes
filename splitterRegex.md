@@ -24,4 +24,7 @@ NOTE: the disjunctions order is important! Specifically, the first expression, i
 
 Finally, subregex can be anything, a character, a word, a regex. And yes, it magically works. :D
 
+And now... [Python code.](splitterRegex.py)
+
+
 [1]: https://docs.python.org/2/library/re.html

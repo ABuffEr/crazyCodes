@@ -34,3 +34,5 @@ In case of OrderedDict, we can even apply a trick, inserting as last the default
 `map(lambda i: d.get(filter(lambda p: p(i), d.keys())[0])(i), l)`
 
 I hope it will be useful (maybe, perhaps, in a time far, far away...) XD
+
+And now... [Python code.](functionChooser.py)

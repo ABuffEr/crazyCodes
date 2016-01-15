@@ -19,5 +19,7 @@ In our example, we use:
 
 You can arrange these elements in various ways, of course, doing a grouping in pattern, taking a specific group or joining all groups in replacing function, not only for padding, and so on... but this is the basic scheme.
 
+And now... [Python code.](paddingRegex.py)
+
 
 [1]: https://bitbucket.org/DennisB/
