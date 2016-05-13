@@ -16,8 +16,8 @@ Given the usual, verbose form of fast modular exponentiation algorithm, with bin
 
 we can reduce it in various ways, but our goal is to obtain a lambda (inline) function that accepts arguments, so to have:
 
-`fme = our_fme_lambda
-res = fme(base, exp, mod)`
+    fme = our_fme_lambda
+    res = fme(base, exp, mod)
 
 ## THE SOLUTION: ##
 
