@@ -2,7 +2,7 @@
 
 A collection of brief codes, quite useless or unlikely applicable, to solve in a shorter or involved manner some relatively simple problems.
 
-Problems that, for majority of cases, come from my friend and colleague Emmanuel Schoysman, and which he uses to torture me for days and days. :)
+Problems that, for majority of cases, come from my friend and colleague [Emmanuel Schoysman][1], and which he uses to torture me for days and days. :)
 
 ## Splitter Regex ##
 
@@ -22,3 +22,11 @@ An attempt to use regex for padding; in practice, a replacing example using a fu
 
 [Explanation](paddingRegex.md) and [Python code.](paddingRegex.py)
 
+## Compact Fast Modular Exponentiation ##
+
+A challenge to minimize the well-known function for modular exponentiation.
+
+[Explanation](compactModExp.md) and [Python code.](compactModExp.py)
+
+
+[1]: https://github.com/eschoysman
