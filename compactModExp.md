@@ -21,7 +21,7 @@ we can reduce it in various ways, but our goal is to obtain a lambda (inline) fu
 
 ## THE SOLUTION: ##
 
-Well, briefly... [Python code.](FastModExp.py)
+Well, briefly... [Python code.](compactModExp.py)
 
 
 [1]: https://en.wikipedia.org/wiki/Modular_exponentiation
