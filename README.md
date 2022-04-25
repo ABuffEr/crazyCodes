@@ -1,28 +1,38 @@
-# Crazy Codes #
+# Crazy Codes
 
 A collection of brief codes, quite useless or unlikely applicable, to solve in a shorter or involved manner some relatively simple problems.
 
-Problems that, for majority of cases, come from my friend and colleague [Emmanuel Schoysman][1], and which he uses to torture me for days and days. :)
+Problems that, for majority of cases, come from my friend and colleague [Emmanuel Schoysman][1], and which he uses to torture me for days and days. 😄
 
-## Splitter Regex ##
+Ok, there could be serious things too... but it's not guaranteed. 😛
+
+## (Python) Module customs
+
+What's imported? What's used from this import?
+
+A experiment to discover it statically, using [ast][2]: [code](customsStaticAnalyzer.py)
+
+## Old (Python 2)
+
+### Splitter Regex
 
 A exercise/challenge to build a (monstrous) regex to split a string, in all possible cases.
 
 [Explanation](splitterRegex.md) and [Python code.](splitterRegex.py)
 
-## Function Chooser ##
+### Function Chooser
 
 A code density exercise, to apply different functions on list items according to satisfied predicates.
 
 [Explanation](functionChooser.md) and [Python code.](functionChooser.py)
 
-## Padding Regex ##
+### Padding Regex
 
 An attempt to use regex for padding; in practice, a replacing example using a function rather than a pre-determined string.
 
 [Explanation](paddingRegex.md) and [Python code.](paddingRegex.py)
 
-## Compact Fast Modular Exponentiation ##
+### Compact Fast Modular Exponentiation
 
 A challenge to minimize the well-known function for modular exponentiation.
 
@@ -30,3 +40,4 @@ A challenge to minimize the well-known function for modular exponentiation.
 
 
 [1]: https://github.com/eschoysman
+[2]: https://docs.python.org/3/library/ast.html
