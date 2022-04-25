@@ -10,7 +10,7 @@ Ok, there could be serious things too... but it's not guaranteed. 😛
 
 What's imported? What's used from this import?
 
-A experiment to discover it statically, using [ast][2]: [code](customsStaticAnalyzer.py)
+A experiment to discover it statically, using [ast][2]: [code](customsStaticAnalyzer.py?raw=true)
 
 ## Old (Python 2)
 
@@ -18,25 +18,25 @@ A experiment to discover it statically, using [ast][2]: [code](customsStaticAnal
 
 A exercise/challenge to build a (monstrous) regex to split a string, in all possible cases.
 
-[Explanation](splitterRegex.md) and [Python code.](splitterRegex.py)
+[Explanation](splitterRegex.md) and [Python code.](splitterRegex.py?raw=true)
 
 ### Function Chooser
 
 A code density exercise, to apply different functions on list items according to satisfied predicates.
 
-[Explanation](functionChooser.md) and [Python code.](functionChooser.py)
+[Explanation](functionChooser.md) and [Python code.](functionChooser.py?raw=true)
 
 ### Padding Regex
 
 An attempt to use regex for padding; in practice, a replacing example using a function rather than a pre-determined string.
 
-[Explanation](paddingRegex.md) and [Python code.](paddingRegex.py)
+[Explanation](paddingRegex.md) and [Python code.](paddingRegex.py?raw=true)
 
 ### Compact Fast Modular Exponentiation
 
 A challenge to minimize the well-known function for modular exponentiation.
 
-[Explanation](compactModExp.md) and [Python code.](compactModExp.py)
+[Explanation](compactModExp.md) and [Python code.](compactModExp.py?raw=true)
 
 
 [1]: https://github.com/eschoysman
