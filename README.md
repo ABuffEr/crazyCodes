@@ -10,7 +10,7 @@ Ok, there could be serious things too... but it's not guaranteed. 😛
 
 Is there a way to make a module-in-the-middle attack? To run a filter between a module importer and  a module imported from it? To intercept and alert about deprecations?
 
-A first experiment (lacking of the class patching part) around [PEP 562.][3] [wrapper](moduleWrapping/multipleModules/wrapperMod.py?raw=true), [diverted](moduleWrapping/multipleModules/divertedMod?raw=true) and [main](moduleWrapping/multipleModules/mainMod.py?raw=true) modules.
+A first experiment (lacking of the class patching part) around [PEP 562.][3] [Wrapper](moduleWrapping/multipleModules/wrapperMod.py?raw=true), [diverted](moduleWrapping/multipleModules/divertedMod.py?raw=true) and [main](moduleWrapping/multipleModules/mainMod.py?raw=true) modules.
 
 (for a single module redirection, see the repo tree under moduleWrapping/singleModule)
 
